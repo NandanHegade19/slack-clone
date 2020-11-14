@@ -19,7 +19,9 @@ function ChatInput({channelName, channelId}) {
                 user: user.displayName,
                 userImg: user.photoURL
             })
+            setInput('');
         }
+        setInput('');
     }
     return (
         <div className = "chatinput">
